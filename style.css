@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-family: 'Krona One', sans-serif;
     text-align: center;
     background-color: #000000;
 }
 
 .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 21.5px 0;
     background-color: #E8D4D1;
     color: #020202;
     text-decoration: none;
     position: relative;
     overflow: hidden;
     transition: color 0.3s;
+    border-radius: 16px;
+    width: 280px;
 }
 
 .button::before {
